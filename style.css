@@ -166,3 +166,41 @@ a {
 .instagram-btn:hover {
     background-color: #d12e4b;
 }
+
+/* PROJETOS */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 25px;
+    margin-top: 50px;
+}
+.project-card {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: #112240;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+    text-align: left;
+    height: 100%;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    background-color: #1b3664;
+}
+.project-title {
+    color: var(--cor-destaque);
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.project-description {
+    color: var(--cor-secundaria);
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+.project-tech {
+    color: var(--cor-secundaria);
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
