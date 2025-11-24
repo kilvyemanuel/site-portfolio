@@ -154,6 +154,12 @@ a {
     color: var(--cor-fundo-principal);
     border: 1px solid transparent; 
 }
+.github-btn {
+    background-color: #939393; 
+}
+.github-btn:hover {
+    background-color: #4e4e4e;
+}
 .linkedin-btn {
     background-color: #0A66C2; 
 }
