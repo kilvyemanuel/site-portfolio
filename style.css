@@ -24,3 +24,33 @@ a {
     color: var(--cor-destaque);
     text-decoration: none;
 }
+
+/* ESTILIZAÇÃO NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: rgba(10, 25, 47, 0.7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--cor-destaque);
+}
+.nav-links a {
+    margin: 0 25px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    color: var(--cor-texto-principal);
+}
+.nav-links a:hover {
+    color: var(--cor-destaque);
+}
