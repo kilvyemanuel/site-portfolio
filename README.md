@@ -1,6 +1,6 @@
 # Kilvy Emanuel | Portfólio Pessoal
 
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+![Status](https://img.shields.io/badge/Status-Em_Andamento-yellow)
 
 Portfólio moderno e minimalista desenvolvido para exibir meus projetos, habilidades em desenvolvimento web e informações de contato.
 
