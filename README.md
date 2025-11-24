@@ -4,6 +4,8 @@
 
 Portfólio moderno e minimalista desenvolvido para exibir meus projetos, habilidades em desenvolvimento web e informações de contato.
 
+[![Deploy](https://img.shields.io/badge/Acessar_Site-64ffda?style=for-the-badge&logo=github&logoColor=10192f)](https://kilvyemanuel.github.io/site-portfolio/)
+
 ---
 
 ## 💡 Visão Geral e Objetivo
