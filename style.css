@@ -27,8 +27,8 @@ a {
 
 /* SEÇÕES GERAIS */
 .section {
-    padding: 120px 100px;
-    max-width: 1600px;
+    padding: 120px 0;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -37,14 +37,20 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 20px 0;
+    padding: 0;
+    display: block;
     background: rgba(10, 25, 47, 0.7);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     z-index: 100;
+}
+.navbar-content-wrapper {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 10px; 
 }
 .logo {
     font-size: 1.5rem;
@@ -52,7 +58,7 @@ a {
     color: var(--cor-destaque);
 }
 .nav-links a {
-    margin: 0 25px;
+    margin: 0 10px;
     font-size: 0.9rem;
     letter-spacing: 1px;
     transition: 0.3s;
@@ -65,7 +71,7 @@ a {
 /* HERO */
 .hero {
     height: calc(100vh - 80px); 
-    padding: 0 50px; 
+    padding: 0; 
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
