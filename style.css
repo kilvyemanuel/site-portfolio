@@ -123,6 +123,33 @@ a {
     max-width: 700px;
 }
 
+/* SEÇÃO ABOUT */
+.about-content {
+    display: flex;
+    gap: 50px; 
+    align-items: flex-start; 
+}
+
+.about-text {
+    flex: 2; 
+    min-width: 0; 
+}
+
+.about-image {
+    flex: 1; 
+    max-width: 300px; 
+    margin-top: 10px; 
+    text-align: right; 
+}
+
+.profile-photo {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 10px 30px -15px var(--sombra-nav); 
+    border: 3px solid var(--cor-destaque); 
+}
+
 /* SEÇÃO CONTATO */
 .section.contact p {
     margin-left: auto;
