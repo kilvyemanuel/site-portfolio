@@ -1,14 +1,26 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #e6f7ff;
-    color: #1a1a1a;
+/* Inicialização CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Variáveis e Global (Dark Theme) */
+:root {
+    --cor-fundo-principal: #0a192f;
+    --cor-texto-principal: #ccd6f6; 
+    --cor-destaque: #64ffda; 
+    --cor-secundaria: #8892b0; 
 }
 
-header {
-    background-color: #0056b3;
-    color: white;
-    padding: 15px;
-    border-radius: 5px;
-    text-align: center;
+body {
+    background-color: var(--cor-fundo-principal);
+    color: var(--cor-texto-principal);
+    font-family: 'Inter', Arial, sans-serif;
+    line-height: 1.6;
+    padding-top: 80px;
+}
+
+a {
+    color: var(--cor-destaque);
+    text-decoration: none;
 }
