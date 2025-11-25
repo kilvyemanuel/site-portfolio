@@ -244,3 +244,11 @@ a {
     font-weight: 500;
     letter-spacing: 1px;
 }
+
+/* FOOTER */
+footer {
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--cor-secundaria);
+}
